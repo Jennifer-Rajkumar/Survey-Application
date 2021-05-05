@@ -8,7 +8,7 @@ Tech Stack: \
 •	DB – any
 
 Types of users
-   1. Survey Creator\
+   1. Survey Creator
   
 Application Functionalities:\
 •	Admin should be able to create a new survey and see list of surveys available.\
