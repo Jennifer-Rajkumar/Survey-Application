@@ -25,4 +25,3 @@ Evaluation
 •	Completion of the given use cases.
 •	Best practices in code, system design, and implementation.
 •	Overall user activity.
-
