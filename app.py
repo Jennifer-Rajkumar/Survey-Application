@@ -11,8 +11,6 @@ from flask_mongoengine import MongoEngine
 import pymongo
 import datetime
 import re
- 
-regex = '^(\w|\.|\_|\-)+[@](\w|\_|\-|\.)+[.]\w{2,3}$'
 
 app=Flask(__name__)
 app.config['MONGODB_SETTINGS'] = {
