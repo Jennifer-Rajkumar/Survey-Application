@@ -27,11 +27,10 @@
         </nav>
         <br><br>
         <section>
-        {% for i in range(0,length) %}
             <div class="showcase">
                 <div class="container">
-
-                    <div class="box">
+                    {% for i in range(0,length) %}
+                    <div class="box mt-3">
                         <h5>Link: {{l[i][0]}}</h5>
                         <p>Questions: </p>
                         {% for j in range(0,no[i])%}
@@ -52,10 +51,10 @@
                             {% endfor %}
                         {% endfor %}
                     </div>
+                    {% endfor %}
                 </div>
             </div>
             <br><br>
-        {% endfor %}
         </section>
     <footer>
         <div class="footer">
